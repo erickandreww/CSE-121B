@@ -1,0 +1,93 @@
+/* main.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url('https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 20px;
+  height: 100vh;
+}
+
+#poke-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.poke-info-section {
+  background-color: purple;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.poke-stats-section {
+  background-color: orange;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 200px;
+  height: auto;
+}
+
+button {
+  display: block;
+  margin-top: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 10px 20px;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.title {
+    font-size: 36px;
+    text-align: center;
+    color: #fff;
+    margin-top: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+.name-image {
+    text-align: center;
+    margin-bottom: 20px;
+}
